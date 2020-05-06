@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 ruby '1.9.3'
 
-gem 'rails', '3.2.13'
+gem 'rails', '4.0.0'
 gem 'actionpack', '3.2.13' # added b/c google_charts gem isn't being a good citizen in gemspec
 
 gem 'pg'
@@ -16,7 +16,7 @@ gem "meta_search",    '>= 1.1.0.pre'
 gem 'ckeditor_rails', :require => 'ckeditor-rails'
 gem 'haml'
 
-gem 'paper_trail'
+gem 'paper_trail', '>= 2.6.3'
 gem 'stringex'
 gem 'settingslogic'
 
