@@ -42,7 +42,7 @@ group :assets do
   gem 'therubyracer'
 end
 
-gem 'jquery-rails'
+gem 'jquery-rails', '>= 3.1.3'
 
 group :test do
   # Pretty printed test output
