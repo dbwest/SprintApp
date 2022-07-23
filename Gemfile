@@ -11,7 +11,7 @@ gem 'thin'
 gem 'cancan'
 gem 'activeadmin', :git => 'git://github.com/macfanatic/active_admin.git', branch: 'stable_batch_actions'
 gem 'sass-rails'
-gem "meta_search",    '>= 1.1.0.pre'
+gem "meta_search", ">= 1.1.3"
 
 gem 'ckeditor_rails', :require => 'ckeditor-rails'
 gem 'haml'
