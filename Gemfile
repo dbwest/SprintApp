@@ -27,7 +27,7 @@ group :development do
 end
 
 # Assets
-gem 'carrierwave'
+gem 'carrierwave', '>= 2.2.5'
 gem 'mini_magick'
 
 # Validation helpers
