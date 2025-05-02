@@ -23,7 +23,7 @@ gem 'settingslogic'
 group :development do
   gem 'better_errors'
   gem 'binding_of_caller'
-  gem 'rspec-rails'
+  gem 'rspec-rails', '>= 8.0.0', '>= 8.0.0'
 end
 
 # Assets
